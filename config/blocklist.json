@@ -1,0 +1,17 @@
+{
+  "_comment": "Explicitly banned devices -- always blocked even if a serial partially matches an approved entry. Useful for known-bad hardware (e.g. flagged BadUSB implants) or previously lost/stolen media.",
+  "banned_devices": [
+    {
+      "device_id": "1234:5678",
+      "serial": null,
+      "reason": "Known BadUSB HID-emulation signature reported by CERT-In advisory (sample dataset)",
+      "flagged_on": "2026-02-01"
+    },
+    {
+      "device_id": "0951:1666",
+      "serial": "LOST-0099",
+      "reason": "Reported lost/stolen storage device -- revoked",
+      "flagged_on": "2026-03-15"
+    }
+  ]
+}

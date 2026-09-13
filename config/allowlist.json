@@ -1,0 +1,26 @@
+{
+  "_comment": "Approved USB devices. device_id is VID:PID (lowercase hex). serial is optional -- if present, the serial must ALSO match for the device to be treated as allowed (protects against VID/PID cloning).",
+  "approved_devices": [
+    {
+      "device_id": "0781:5591",
+      "serial": "AA010203040506",
+      "label": "SanDisk Cruzer Blade 16GB (IT Dept. issued)",
+      "owner": "Lab Admin",
+      "added_on": "2026-01-10"
+    },
+    {
+      "device_id": "046d:c52b",
+      "serial": null,
+      "label": "Logitech USB Receiver (wireless mouse/keyboard)",
+      "owner": "Shared peripheral",
+      "added_on": "2026-01-10"
+    },
+    {
+      "device_id": "05e3:0608",
+      "serial": null,
+      "label": "Generic USB 2.0 Hub",
+      "owner": "Lab infrastructure",
+      "added_on": "2026-01-10"
+    }
+  ]
+}
